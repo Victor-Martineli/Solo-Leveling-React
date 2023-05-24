@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.reverse-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.picture-container{
+    width: 40vh;
+    height: 100%;
+    margin-left: 10px;
+    background-color: #363636;
+}
+.reverse-picture-container{
+    width: 40vh;
+    height: 100%;
+    margin-right: 10px;
+    background-color: #363636
+}
+
+.description{
+    width: 90%;
+    height: 80%;
+    background-color: #363636;
+    opacity: 60%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.text{
+    padding: 10px;
+    font-size: 2vw;
+    text-indent: 10px;
+    
+    
+}
+
+.picture1{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem01.png);
+}
+
+.picture2{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem02.png);
+}
+
+.picture3{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem03.png);
+}
+
+.picture4{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem04.png);
+}
+
+.picture5{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem05.png);
+}
+
+.picture6{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem06.png);
+}
+
+.picture7{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem07.png);
+}
+
+.picture8{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem08.png);
+}
+
+.picture9{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem09.png);
+}
+
+.picture10{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-image: url(../../assets/imagens/fotos/imagem10.png);
+}
+
+.button{
+    width: 300px;
+    height: 90px;
+    background-color: #7d1996;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    align-items: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width: 600px){
+    .container{
+        height: 40vh;
+    }
+    .reverse-container{
+        height: 40vh;
+    }
+    .text{
+        font-size: 3vw;
+    }
+}

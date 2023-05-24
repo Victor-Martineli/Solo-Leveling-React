@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=VT323&display=swap');
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #7d1996;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    align-items: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
